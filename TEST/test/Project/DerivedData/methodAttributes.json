@@ -1,0 +1,66 @@
+{
+	"methods": {
+		"generate_constants_xlf": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_file_from_template": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project": {
+			"timeStamp": "2022-08-10T01:52:06Z"
+		},
+		"generate_project_infoplist": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project_plugin_stub": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project_source": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project_vs": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project_xcode": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"TEST": {
+			"timeStamp": "2022-08-10T02:12:15Z"
+		},
+		"update_manifest_json": {
+			"timeStamp": "2022-02-04T04:43:23Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		}
+	}
+}
