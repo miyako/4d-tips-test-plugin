@@ -38,6 +38,23 @@ GUIでプラグインのコマンド名やパラメーターの組み合わせ�
 ダウンロードまたは
 [4d-plugin-template](https://github.com/miyako/4d-plugin-template)をクローンします。
 
+`{project}/test/Project/test.4DProject`プロジェクトを開きます。
+
+`generate_project`メソッドを開きます。
+
+```4d
+$params:=New object
+$params.PRODUCT_NAME:="My First Plugin"
+$params.PRODUCT_VERSION:="1.0.0"
+$params.AUTHOR:=Current system user
+$params.CREATE_DATE:=Current date
+$params.COPYRIGHT_YEAR:=Year of(Current date)
+
+generate_project_source($params)
+generate_project_vs($params)
+generate_project_xcode($params)
+generate_project_plugin_stub($params)
+```
 
 
 ```json
