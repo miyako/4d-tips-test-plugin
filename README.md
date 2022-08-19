@@ -32,6 +32,13 @@ SDKの本体は`4DPluginAPI.c`というソースファイルです。ファイ�
 
 GUIでプラグインのコマンド名やパラメーターの組み合わせを設定し，Xcode, Visual Studioのプロジェクトを生成するためのツールですが，前述したように必須ではなく，この記事では使用しません。
 
+## Template
+
+[4d-plugin-template](https://github.com/miyako/4d-plugin-template)を
+ダウンロードまたは
+[4d-plugin-template](https://github.com/miyako/4d-plugin-template)をクローンします。
+
+
 
 ```json
 {
