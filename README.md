@@ -56,6 +56,14 @@ generate_project_xcode($params)
 generate_project_plugin_stub($params)
 ```
 
+* `PRODUCT_NAME` プラグイン・ソースコード・プロジェクトなどの名称になる任意の文字列です。
+
+* `PRODUCT_VERSION` *Info.plist*に書き込まれるバージョンコードです。通常は[Semantic Versioning 2.0.0](https://semver.org)で管理します。
+
+* `AUTHOR`ソースコードのコメント文および*Info.plist*に書き込まれる任意の文字列です。
+
+---
+
 
 ```json
 {
