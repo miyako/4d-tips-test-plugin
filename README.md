@@ -31,3 +31,64 @@ SDKの本体は`4DPluginAPI.c`というソースファイルです。ファイ�
 ## 4D Plugin Wizard
 
 GUIでプラグインのコマンド名やパラメーターの組み合わせを設定し，Xcode, Visual Studioのプロジェクトを生成するためのツールですが，前述したように必須ではなく，この記事では使用しません。
+
+
+```json
+{
+    "name": "My First Plugin",
+    "id": 20000,
+    "commands": [
+        {
+            "theme": "Theme 1",
+            "syntax": "My First Plugin Command:J",
+            "threadSafe": true
+        }
+    ]
+}
+```
+
+```c
+#ifndef PLUGIN_MY_FIRST_PLUGIN_H
+#define PLUGIN_MY_FIRST_PLUGIN_H
+
+#include "4DPluginAPI.h"
+
+#pragma mark -
+
+void My_First_Plugin_Command(PA_PluginParameters params);
+
+#endif /* PLUGIN_MY_FIRST_PLUGIN_H */
+```
+
+```
+#include "4DPlugin-My-First-Plugin.h"
+
+#pragma mark -
+
+void PluginMain(PA_long32 selector, PA_PluginParameters params) {
+    
+	try
+	{
+        switch(selector)
+        {
+			// --- My First Plugin
+            
+			case 1 :
+				My_First_Plugin_Command(params);
+				break;
+
+        }
+
+	}
+	catch(...)
+	{
+
+	}
+}
+
+#pragma mark -
+
+void My_First_Plugin_Command(PA_PluginParameters params) {
+
+}
+```
