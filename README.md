@@ -156,6 +156,10 @@ COMMAND_NAME(&PARAMETER_TYPE;):RETURN_VALUE_TYPE
 
 ---
 
+`generate_project`メソッドを実行するとプロジェクトとソースファイルが生成されます。
+
+* My_First_Plugin_Command.h
+
 ```c
 #ifndef PLUGIN_MY_FIRST_PLUGIN_H
 #define PLUGIN_MY_FIRST_PLUGIN_H
@@ -168,6 +172,8 @@ void My_First_Plugin_Command(PA_PluginParameters params);
 
 #endif /* PLUGIN_MY_FIRST_PLUGIN_H */
 ```
+
+* My_First_Plugin_Command.cpp
 
 ```
 #include "4DPlugin-My-First-Plugin.h"
