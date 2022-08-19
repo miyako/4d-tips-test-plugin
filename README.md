@@ -3,7 +3,7 @@
 
 ## 概要
 
-4Dのプラグインは，プラットフォーム標準の**[ダイナミックリンクライブラリ](https://ja.wikipedia.org/wiki/ダイナミックリンクライブラリ)**です。通常は[C](https://ja.wikipedia.org/wiki/C言語)で開発したソースコードをコンパイルして作成しますが，コンパイルしてライブラリを生成できるプログラミング言語であれば，[Go](https://ja.wikipedia.org/wiki/Go_(プログラミング言語))・[Swift](https://ja.wikipedia.org/wiki/Swift_(プログラミング言語))でも開発することができます。
+4Dのプラグインは，プラットフォーム標準の[ダイナミックリンクライブラリ](https://ja.wikipedia.org/wiki/ダイナミックリンクライブラリ)です。通常は[C](https://ja.wikipedia.org/wiki/C言語)で開発したソースコードをコンパイルして作成しますが，コンパイルしてライブラリを生成できるプログラミング言語であれば，[Go](https://ja.wikipedia.org/wiki/Go_(プログラミング言語))・[Swift](https://ja.wikipedia.org/wiki/Swift_(プログラミング言語))でも開発することができます。
 
 公式の[プラグイン開発キット](https://github.com/4d/4D-Plugin-SDK)には，下記のものが含まれています。
 
