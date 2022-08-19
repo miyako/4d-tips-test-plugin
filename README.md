@@ -12,3 +12,11 @@
 * docs - v2003当時のドキュメント
 
 プラグインの開発に必要なものは「4D Plugin API」だけであり，他はメンテナンスもあまりされていないようです。おそらく，ほとんどのプラグインデベロッパーは「4D Plugin API」以外は無視しているものと思われます。
+
+## SDK
+
+SDKに正式なバージョンコードは付けられてないないようです。便宜上，ファイルの日付で区別します。
+
+|4D Plugin SDK|minimum 4D version|
+|:-:|:-:|
+|[21.7.13](https://github.com/miyako/4d-tutorial-my-first-plugin/tree/main/sdk/21.7.13)|v17|
