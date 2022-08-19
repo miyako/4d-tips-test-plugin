@@ -34,9 +34,7 @@ GUIでプラグインのコマンド名やパラメーターの組み合わせ�
 
 ## Template
 
-[4d-plugin-template](https://github.com/miyako/4d-plugin-template)を
-ダウンロードまたは
-[4d-plugin-template](https://github.com/miyako/4d-plugin-template)をクローンします。
+[4d-plugin-template](https://github.com/miyako/4d-plugin-template)をダウンロードまたはクローンします。
 
 `{project}/test/Project/test.4DProject`プロジェクトを開きます。
 
