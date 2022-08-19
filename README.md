@@ -17,6 +17,6 @@
 
 SDKに正式なバージョンコードは付けられてないないようです。便宜上，ファイルの日付で区別します。
 
-|4D Plugin SDK}minimum 4D version|
+|4D Plugin SDK|minimum 4D version|
 |:-:|:-:|
 |21.7.13|v17|
