@@ -20,3 +20,4 @@ SDKに正式なバージョンコードは付けられてないないようで�
 |4D Plugin SDK|minimum 4D version|
 |:-:|:-:|
 |[21.7.13](https://github.com/miyako/4d-tutorial-my-first-plugin/tree/main/sdk/21.7.13)|v17|
+|[20.4.5](https://github.com/miyako/4d-tutorial-my-first-plugin/tree/main/sdk/20.4.5)|v11|
