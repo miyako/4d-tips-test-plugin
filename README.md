@@ -123,6 +123,39 @@ COMMAND_NAME(&PARAMETER_TYPE;):RETURN_VALUE_TYPE
 
 ---
 
+*constants.json*ファイルを開きます。
+
+```json
+{
+    "themes": [
+    ]
+}
+```
+
+プラグイン専用の定数を登録することができます。
+
+下記の要領で記述します。
+
+```json
+{
+    "themes": [
+        {
+            "theme": "My First Plugin",
+            "constants": [
+                {
+                    "name": "My First Plugin Constant",
+                    "value": "1:L"
+                }
+            ]
+        }
+    ]
+}
+```
+
+定数のデータ型は文字列（`S`）倍長整数（`L`）字数（`R`）のいずれかを指定します。
+
+---
+
 ```c
 #ifndef PLUGIN_MY_FIRST_PLUGIN_H
 #define PLUGIN_MY_FIRST_PLUGIN_H
