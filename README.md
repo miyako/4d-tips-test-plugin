@@ -56,14 +56,15 @@ generate_project_xcode($params)
 generate_project_plugin_stub($params)
 ```
 
-* `PRODUCT_NAME` プラグイン・ソースコード・プロジェクトなどの名称になる任意の文字列です。
+* `PRODUCT_NAME`: プラグイン・ソースコード・プロジェクトなどの名称になる任意の文字列です。
 
-* `PRODUCT_VERSION` *Info.plist*に書き込まれるバージョンコードです。通常は[Semantic Versioning 2.0.0](https://semver.org)で管理します。
+* `PRODUCT_VERSION`: *Info.plist*に書き込まれるバージョンコードです。通常は[Semantic Versioning 2.0.0](https://semver.org)で管理します。
 
-* `AUTHOR`ソースコードのコメント文および*Info.plist*に書き込まれる任意の文字列です。
+* `AUTHOR`: ソースコードのコメント文および*Info.plist*に書き込まれる任意の文字列です。
 
 ---
 
+*manifest.json*ファイルを開きます。
 
 ```json
 {
@@ -78,6 +79,18 @@ generate_project_plugin_stub($params)
     ]
 }
 ```
+
+`name`: エクスプローラーに表示されるプラグイン名です。
+
+`id`: [PLUGIN LIST](https://doc.4d.com/4Dv19R5/4D/19-R5/PLUGIN-LIST.301-5830974.ja.html)から返されるプラグイン番号です。`15001`から`32000`の間を設定します。この範囲のプラグイン番号を設定した場合，プラグインは名前で識別されます。`15000`以下の値は4D純正プラグインのために予約されており，プラグインは名前で識別されます。
+
+`commands.theme`: エクスプローラーに表示されるプラグインコマンドの分類名です。
+
+`commands.syntax`: プラグインのコマンド名およびシンタックスです（後述）。
+
+`commands.threadSafe`: コマンドがプリエンプティブモードに対応していれば`true`に設定します。v16以前では効果がありません。APIの対応状況はSDKの*EntryPoints.h*ファイルで確認することができます。`threadSafe`と記述されているAPIは対応しています。その他，グローバル変数に対する排他的アクセスをmutexで保護し，スレッドセーフなプラットフォームAPIだけを使用するなど，C言語のレベルでもプリエンプティブモードに対応する必要があります。
+
+---
 
 ```c
 #ifndef PLUGIN_MY_FIRST_PLUGIN_H
