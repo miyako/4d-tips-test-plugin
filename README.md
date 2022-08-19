@@ -214,4 +214,4 @@ void My_First_Plugin_Command(PA_PluginParameters params) {
 
 4D Plugin Wizardを使用せずにプロジェクトを準備することができました。ここからはXcodeまたはVisual Studioで実際にプラグインを開発することになります。
 
-- つづく -
+*つづく*
