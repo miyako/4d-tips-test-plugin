@@ -1,5 +1,5 @@
-# 4d-tips-test-plugin
-簡単なプラグインを作ってみた
+# 4d-tutorial-my-first-plugin
+簡単なプラグインを作ってみましょう
 
 ## MEMO
 
