@@ -207,3 +207,5 @@ void My_First_Plugin_Command(PA_PluginParameters params) {
 
 }
 ```
+
+プロジェクト名を変更しない限り，ファイルは上書きされるので，*manifest.json* *constants.json* `generate_project`メソッドを更新した上でメソッドを再実行することにより，プロジェクトとソースファイル再生成することもできます。
