@@ -247,3 +247,4 @@ OKクリックして画面を閉じます。プラグインコマンドにブレ
 
 <img width="997" alt="4" src="https://user-images.githubusercontent.com/1725068/186282479-08e61cae-6f25-4807-b9a4-5d7f4296c0ad.png">
 
+<img width="997" alt="6" src="https://user-images.githubusercontent.com/1725068/186283450-0682a498-d588-46cb-afd7-06bdc83fe132.png">
