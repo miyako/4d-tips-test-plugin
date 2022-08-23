@@ -63,7 +63,7 @@
 		"left": 500,
 		"top": 130,
 		"width": 720,
-		"height": 399
+		"height": 400
 	},
 	"Sources/Methods/generate_project_infoplist.4dm": {
 		"left": 305,
@@ -145,7 +145,7 @@
 	},
 	"Sources/Methods/TEST.4dm": {
 		"left": 264,
-		"top": 109,
+		"top": 111,
 		"width": 965,
 		"height": 528
 	},

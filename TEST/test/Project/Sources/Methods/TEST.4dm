@@ -1,2 +1,2 @@
 //%attributes = {}
-$a:=E command(1; 2)
+$a:=A command(1; 2)

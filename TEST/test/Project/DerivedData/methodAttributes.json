@@ -1,62 +1,62 @@
 {
 	"methods": {
-		"generate_constants_xlf": {
-			"timeStamp": "2022-02-04T04:43:23Z",
-			"attributes": {
-				"invisible": true,
-				"preemptive": "capable"
-			}
-		},
 		"generate_file_from_template": {
-			"timeStamp": "2022-02-04T04:43:23Z",
+			"timeStamp": "2022-08-19T05:01:38.318Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
-		},
-		"generate_project": {
-			"timeStamp": "2022-08-10T01:52:06Z"
 		},
 		"generate_project_infoplist": {
-			"timeStamp": "2022-02-04T04:43:23Z",
+			"timeStamp": "2022-08-19T05:01:38.319Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
-		"generate_project_plugin_stub": {
-			"timeStamp": "2022-02-04T04:43:23Z",
+		"generate_constants_xlf": {
+			"timeStamp": "2022-08-19T05:01:38.318Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
-		"generate_project_source": {
-			"timeStamp": "2022-02-04T04:43:23Z",
+		"update_manifest_json": {
+			"timeStamp": "2022-08-23T23:09:02.575Z",
 			"attributes": {
 				"invisible": true,
-				"preemptive": "capable"
-			}
-		},
-		"generate_project_vs": {
-			"timeStamp": "2022-02-04T04:43:23Z",
-			"attributes": {
-				"invisible": true,
-				"preemptive": "capable"
+				"preemptive": "incapable"
 			}
 		},
 		"generate_project_xcode": {
-			"timeStamp": "2022-02-04T04:43:23Z",
+			"timeStamp": "2022-08-19T05:01:38.319Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"TEST": {
-			"timeStamp": "2022-08-10T02:12:15Z"
+			"timeStamp": "2022-08-23T23:08:55.311Z"
 		},
-		"update_manifest_json": {
-			"timeStamp": "2022-02-04T04:43:23Z",
+		"generate_project": {
+			"timeStamp": "2022-08-23T23:08:25.658Z"
+		},
+		"generate_project_vs": {
+			"timeStamp": "2022-08-19T05:01:38.319Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project_plugin_stub": {
+			"timeStamp": "2022-08-23T23:11:46.746Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"generate_project_source": {
+			"timeStamp": "2022-08-19T05:01:38.319Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"

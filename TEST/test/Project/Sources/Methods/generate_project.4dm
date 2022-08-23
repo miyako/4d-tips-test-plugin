@@ -2,7 +2,7 @@
 $params:=New object:C1471
 $params.PRODUCT_NAME:="My First Plugin"
 $params.PRODUCT_VERSION:="1.0.0"
-$params.AUTHOR:="miyako"
+$params.AUTHOR:=Current system user:C484
 $params.CREATE_DATE:=Current date:C33
 $params.COPYRIGHT_YEAR:=Year of:C25(Current date:C33)
 

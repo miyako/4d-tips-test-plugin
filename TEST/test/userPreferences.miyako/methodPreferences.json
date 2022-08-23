@@ -27,13 +27,13 @@
 		"stamp": "2019-07-24T08:49:03.338Z"
 	},
 	"Sources/Methods/generate_project.4dm": {
-		"startSelection": 4,
-		"endSelection": 4,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-08-10T01:52:06.334Z"
+		"stamp": "2022-08-23T23:08:25.658Z"
 	},
 	"Sources/Methods/generate_project_source.4dm": {
 		"startSelection": 18,
@@ -54,13 +54,13 @@
 		"stamp": "2019-07-29T04:26:04.720Z"
 	},
 	"Sources/Methods/generate_project_plugin_stub.4dm": {
-		"startSelection": 33,
-		"endSelection": 33,
-		"firstSelectedLine": 48,
-		"lastSelectedLine": 48,
+		"startSelection": 55,
+		"endSelection": 55,
+		"firstSelectedLine": 52,
+		"lastSelectedLine": 52,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-02T14:18:29.030Z"
+		"stamp": "2022-08-23T23:11:46.746Z"
 	},
 	"Sources/Methods/generate_project_infoplist.4dm": {
 		"startSelection": 17,
@@ -171,13 +171,13 @@
 		"stamp": "2019-07-02T23:15:40.975Z"
 	},
 	"Sources/Methods/TEST.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-08-10T02:12:15.153Z"
+		"stamp": "2022-08-23T23:08:55.311Z"
 	},
 	"Sources/Methods/TEST_v17.4dm": {
 		"startSelection": 0,
@@ -195,6 +195,6 @@
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-02-04T04:43:23.000Z"
+		"stamp": "2022-08-23T23:09:02.575Z"
 	}
 }

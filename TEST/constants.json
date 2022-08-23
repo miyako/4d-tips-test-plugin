@@ -1,1 +1,1 @@
-{	"themes": [	]}
+{    "themes": [        {            "theme": "My First Plugin",            "constants": [                {                    "name": "My First Plugin Constant",                    "value": "1:L"                }            ]        }    ]}
