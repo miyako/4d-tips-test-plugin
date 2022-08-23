@@ -224,3 +224,20 @@ void My_First_Plugin_Command(PA_PluginParameters params) {
 
 <img width="996" alt="2" src="https://user-images.githubusercontent.com/1725068/186278631-f7007f9d-f43e-4984-8d63-17b3ab598b1d.png">
 
+*.cpp* ファイルを開き，プラグインコマンドのソースコードを完成させます。
+
+```c
+void A_command(PA_PluginParameters params) {
+
+	long arg1 = PA_GetLongParameter(params, 1);
+	long arg2 = PA_GetLongParameter(params, 2);
+
+	long returnValue = arg1 + arg2;
+
+	PA_ReturnLong(params, returnValue);
+}
+
+```
+
+<img width="997" alt="3" src="https://user-images.githubusercontent.com/1725068/186279770-996bbbb1-cf7d-48a5-93d2-82f6ff26e62e.png">
+
