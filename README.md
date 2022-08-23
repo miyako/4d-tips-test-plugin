@@ -241,3 +241,7 @@ void A_command(PA_PluginParameters params) {
 
 <img width="997" alt="3" src="https://user-images.githubusercontent.com/1725068/186279770-996bbbb1-cf7d-48a5-93d2-82f6ff26e62e.png">
 
+ソリューションエクスプローラーでプロジェクトを右クリックし，プロパティを表示します。デバッグページに移動し，コマンドに4D.exeのパスを入力します。
+
+<img width="1086" alt="4" src="https://user-images.githubusercontent.com/1725068/186280542-ab5014a2-250c-4d2f-89a1-4755d2c26e6b.png">
+
