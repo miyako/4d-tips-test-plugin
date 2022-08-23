@@ -243,7 +243,7 @@ void A_command(PA_PluginParameters params) {
 
 ソリューションエクスプローラーでプロジェクトを右クリックし，プロパティを表示します。デバッグページに移動し，コマンドに4D.exeのパスを入力します。
 
-<img width="1086" alt="4" src="https://user-images.githubusercontent.com/1725068/186280542-ab5014a2-250c-4d2f-89a1-4755d2c26e6b.png">
+<img width="1086" alt="5" src="https://user-images.githubusercontent.com/1725068/186282771-f1b1c680-895d-4527-8fd9-aab348a43d75.png">
 
 OKクリックして画面を閉じます。プラグインコマンドにブレークポイントをセットします。設定が *Debug* *x64* であることを確認し，ローカルWindowsデバッガーを開始します。
 
