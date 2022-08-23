@@ -71,7 +71,7 @@ generate_project_plugin_stub($params)
     "commands": [
         {
             "theme": "Theme 1",
-            "syntax": "My First Plugin Command:J",
+            "syntax": "My First Plugin Command(&L;&L):L",
             "threadSafe": true
         }
     ]
