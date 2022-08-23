@@ -250,3 +250,8 @@ OKクリックして画面を閉じます。プラグインコマンドにブレ
 *test* プロジェクトを開き，テスト用のプロジェクトメソッドを作成して，プラグインコマンドの呼び出しを記述します。4D側にもブレークポイントを設定することができます。
 
 <img width="997" alt="6" src="https://user-images.githubusercontent.com/1725068/186283450-0682a498-d588-46cb-afd7-06bdc83fe132.png">
+
+メソッドを実行します。ブレークポイントに到達するとVisual Studioに制御が移り，Visual C++のデバッガでトレースすることができます。
+
+<img width="997" alt="7" src="https://user-images.githubusercontent.com/1725068/186283906-70887b99-7696-42c6-8582-e0c77431bb6e.png">
+
