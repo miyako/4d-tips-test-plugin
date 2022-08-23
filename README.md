@@ -214,4 +214,38 @@ void My_First_Plugin_Command(PA_PluginParameters params) {
 
 4D Plugin Wizardを使用せずにプロジェクトを準備することができました。ここからはXcodeまたはVisual Studioで実際にプラグインを開発することになります。
 
-*つづく*
+## Microsoft Visual Studio
+
+プラグインはC/C++で開発するので，[Microsoft Visual C++](https://ja.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)の統合開発環境を使用します。テンプレートで出力したプロジェクトのバージョンは`14.0 (2015)`です。必要であれば，`14.1 (2017)` `14.2 (2019)`で開くこともできます。
+
+*.vcxproj* または *.sln* ファイルを開きます。
+
+<img width="724" alt="1" src="https://user-images.githubusercontent.com/1725068/186278611-863609f1-b633-4a86-8a1b-11e6ce77a1a9.png">
+
+<img width="996" alt="2" src="https://user-images.githubusercontent.com/1725068/186278631-f7007f9d-f43e-4984-8d63-17b3ab598b1d.png">
+
+*.cpp* ファイルを開き，プラグインコマンドのソースコードを完成させます。
+
+```c
+void A_command(PA_PluginParameters params) {
+
+	long arg1 = PA_GetLongParameter(params, 1);
+	long arg2 = PA_GetLongParameter(params, 2);
+
+	long returnValue = arg1 + arg2;
+
+	PA_ReturnLong(params, returnValue);
+}
+
+```
+
+<img width="997" alt="3" src="https://user-images.githubusercontent.com/1725068/186279770-996bbbb1-cf7d-48a5-93d2-82f6ff26e62e.png">
+
+ソリューションエクスプローラーでプロジェクトを右クリックし，プロパティを表示します。デバッグページに移動し，コマンドに4D.exeのパスを入力します。
+
+<img width="1086" alt="4" src="https://user-images.githubusercontent.com/1725068/186280542-ab5014a2-250c-4d2f-89a1-4755d2c26e6b.png">
+
+OKクリックして画面を閉じます。プラグインコマンドにブレークポイントをセットします。設定が *Debug* *x64* であることを確認し，ローカルWindowsデバッガーを開始します。
+
+<img width="997" alt="5" src="https://user-images.githubusercontent.com/1725068/186281191-459a8a0c-d321-43b5-9eab-899c6fad5abe.png">
+
