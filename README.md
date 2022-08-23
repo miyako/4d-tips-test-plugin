@@ -247,5 +247,5 @@ void A_command(PA_PluginParameters params) {
 
 OKクリックして画面を閉じます。プラグインコマンドにブレークポイントをセットします。設定が *Debug* *x64* であることを確認し，ローカルWindowsデバッガーを開始します。
 
-<img width="997" alt="5" src="https://user-images.githubusercontent.com/1725068/186281191-459a8a0c-d321-43b5-9eab-899c6fad5abe.png">
+<img width="997" alt="4" src="https://user-images.githubusercontent.com/1725068/186282479-08e61cae-6f25-4807-b9a4-5d7f4296c0ad.png">
 
