@@ -214,4 +214,13 @@ void My_First_Plugin_Command(PA_PluginParameters params) {
 
 4D Plugin Wizardを使用せずにプロジェクトを準備することができました。ここからはXcodeまたはVisual Studioで実際にプラグインを開発することになります。
 
-*つづく*
+## Microsoft Visual Studio
+
+プラグインはC/C++で開発するので，[Microsoft Visual C++](https://ja.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)の統合開発環境を使用します。テンプレートで出力したプロジェクトのバージョンは`14.0 (2015)`です。必要であれば，`14.1 (2017)` `14.2 (2019)`で開くこともできます。
+
+*.vcxproj* または *.sln* ファイルを開きます。
+
+<img width="724" alt="1" src="https://user-images.githubusercontent.com/1725068/186278611-863609f1-b633-4a86-8a1b-11e6ce77a1a9.png">
+
+<img width="996" alt="2" src="https://user-images.githubusercontent.com/1725068/186278631-f7007f9d-f43e-4984-8d63-17b3ab598b1d.png">
+
