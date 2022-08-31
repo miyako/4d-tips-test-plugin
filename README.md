@@ -1,5 +1,5 @@
 # 4d-tutorial-my-first-plugin
-簡単なプラグインを作ってみましょう
+簡単なプラグインを作ってみましょう（Windows編）
 
 ## 概要
 
